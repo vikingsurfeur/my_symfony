@@ -1,0 +1,12 @@
+{
+    "name": "dbous/my_symfony",
+    "authors": [
+        {
+            "name": "David Bouscarle",
+            "email": "d.bouscarle@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
