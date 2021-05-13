@@ -1,10 +1,16 @@
 <?php
 
 
+use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase as TestCaseAlias;
 
 class Indextest extends TestCaseAlias
 {
+    /**
+     * @return void
+     * @throws ExpectationFailedException
+     * @throws InvalidArgumentException
+     */
     public function testHello()
     {
         $_GET['name'] = 'David';
