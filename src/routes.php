@@ -8,9 +8,9 @@ $routes = new RouteCollection();
 
 $routes->add('hello', new Route('/hello/{name}',
                 ['name' => 'World',
-                '_controller' => [new PageController(), 'hello']]));
+                '_controller' => 'App\Controller\PageController::hello']));
 
 $routes->add('bye', new Route('/bye',
-                ['_controller' => [new PageController(), 'bye']]));
+                ['_controller' => 'App\Controller\PageController::bye']));
 
 return $routes;
