@@ -10,7 +10,8 @@
     "require": {
         "symfony/http-foundation": "^5.2",
         "symfony/routing": "^5.2",
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5",
+        "symfony/http-kernel": "^5.2"
     },
     "autoload": {
         "psr-4": {
